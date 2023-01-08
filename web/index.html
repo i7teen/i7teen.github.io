@@ -6,8 +6,8 @@
     <script>
     var i = 0;
 const divItem = document.getElementById('object');
-const textItem = document.querySelector('#text');
-const textPseudo = window.getComputedStyle('#text', '::before');
+const textItem = document.getElementById('text');
+const textPseudo = window.getComputedStyle(textItem, '::before');
 
 function backgroundChange(div)
 {
