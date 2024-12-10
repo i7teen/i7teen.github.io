@@ -1,1 +1,0 @@
-gsap.from('.images', {duration: 1, opacity: 0, delay: 0.5, stagger: .2})
