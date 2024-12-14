@@ -294,6 +294,9 @@ input[type="submit"]{
     #contacts{
         padding-top: 0;
     }
+    #close{
+    padding: 2rem 3rem;
+    }
 }
 @media(max-width: 500px){
     #image-container{
